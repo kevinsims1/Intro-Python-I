@@ -21,4 +21,20 @@ and does the following:
 
 import sys
 import calendar
-from datetime import datetime
+from datetime import date
+
+month = int(input('enter your month: '))
+year = input('enter your year: ')
+today = date.today()
+
+cal = calendar.TextCalendar(calendar.SUNDAY)
+
+def function():
+  if year == '':
+    cal.prmonth(today.year, month)
+  else:
+    int(year)
+    cal.prmonth(year, month)
+    print(cal.prmonth)
+
+function()

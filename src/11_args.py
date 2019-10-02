@@ -54,8 +54,8 @@ print(f3(8))     # Should print 9
 # Google "python keyword arguments".
 
 # YOUR CODE HERE
-def f4(**args):
-    for i in args:
+def f4(**kwargs):
+    for i in kwargs.items():
         print(i)
 
 
@@ -76,4 +76,4 @@ d = {
 }
 
 # What thing do you have to add to make this work?
-f4(d)
+f4(**d)

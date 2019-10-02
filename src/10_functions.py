@@ -3,7 +3,7 @@
 # YOUR CODE HERE
 def is_even(x):
     if(x%2 == 0):
-        print("True")
+        return "True"
 
 n = 6
 print(is_even(n))
@@ -20,5 +20,4 @@ def even(c):
     if c % 2 != 0:
         print("Odd")
 
-print(even(num))
-# nOTE in my console log i get a recurring None from my last print ask team lead about this 
+even(num)
