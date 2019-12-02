@@ -3,28 +3,30 @@
 
 x = [1, 2, 3]
 y = [8, 9, 10]
-
+print(x)
 # For the following, DO NOT USE AN ASSIGNMENT (=).
 
 # Change x so that it is [1, 2, 3, 4]
 # YOUR CODE HERE 
-
+x.append(4)
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE 
+x.extend(y)
 
+# # Change x so that it is [1, 2, 3, 4, 9, 10]
+# # YOUR CODE HERE 
+x.remove(8)
 
-# Change x so that it is [1, 2, 3, 4, 9, 10]
-# YOUR CODE HERE 
+# # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
+# # YOUR CODE HERE 
+x.insert(5, 99)
 
+# # Print the length of list x
+# # YOUR CODE HERE 
+print(len(x))
 
-# Change x so that it is [1, 2, 3, 4, 9, 99, 10]
-# YOUR CODE HERE 
-
-
-# Print the length of list x
-# YOUR CODE HERE 
-
-
-# Print all the values in x multiplied by 1000
-# YOUR CODE HERE
+# # Print all the values in x multiplied by 1000
+# # YOUR CODE HERE
+for i in range(len(x)):
+    print(1000 * x[i])
