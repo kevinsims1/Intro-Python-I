@@ -12,10 +12,9 @@ z = "I like turtles!"
 # y, and z:
 # x is 10, y is 2.25, z is "I like turtles!"
 
-print(f"x is %d, y is %d and z is {z}" % (x, round(y)))
+
 
 # Use the 'format' string method to print the same thing
-print("x is {}, y is {} and z is {}".format(x,round(y),z))
+
 
 # Finally, print the same thing using an f-string
-print(F"x is {x}, y is {round(y)} and z is {z}")
