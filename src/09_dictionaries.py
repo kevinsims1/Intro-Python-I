@@ -24,7 +24,7 @@ waypoints = [
     {
         "lat": 41,
         "lon": -123,
-        "name": "another place"
+        "name": "another places"
     }, 
     {
         "lat": 43,
